@@ -71,20 +71,20 @@ In case of use, please cite our publication:
 Bibtex:
 ```
 @inproceedings{10.1145/3664647.3681126,
-author = {Liu, Hengxing and Li, Mingjia and Guo, Xiaojie},
-title = {Regional Attention For Shadow Removal},
-year = {2024},
-isbn = {9798400706868},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3664647.3681126},
-doi = {10.1145/3664647.3681126},
-booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
-pages = {5949–5957},
-numpages = {9},
-keywords = {regional attention, shadow removal},
-location = {Melbourne VIC, Australia},
-series = {MM '24}
+  author = {Liu, Hengxing and Li, Mingjia and Guo, Xiaojie},
+  title = {Regional Attention For Shadow Removal},
+  year = {2024},
+  isbn = {9798400706868},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3664647.3681126},
+  doi = {10.1145/3664647.3681126},
+  booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages = {5949–5957},
+  numpages = {9},
+  keywords = {regional attention, shadow removal},
+  location = {Melbourne VIC, Australia},
+  series = {MM '24}
 }
 ```
 
