@@ -84,7 +84,6 @@ class DataLoaderTrain(Dataset):
         mask = torch.unsqueeze(mask, dim=0)
         
         ############## data aug ############
-        # print("AUG")
         p = 0.3
         hue_interval = [-p, p]
         saturation_interval = [1-p, 1+p]
