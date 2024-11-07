@@ -1,7 +1,7 @@
 # RASM (ACM MM'24)
 This is the official implementation of the ACM MM 2024 paper [Regional Attention For Shadow Removal](https://dl.acm.org/doi/10.1145/3664647.3681126).
 
-You can also view our paper via the [link](https://drive.google.com/file/d/1mc8lFa3lPIgvBLldF1fsnpUxTtkDZXH0/view?usp=drive_link).
+You can also view our paper via the [link](https://drive.google.com/file/d/1mc8lFa3lPIgvBLldF1fsnpUxTtkDZXH0/view?usp=sharing).
 
 ## Introduction
 Shadow, as a natural consequence of light interacting with objects, plays a crucial role in shaping the aesthetics of an image, which however also impairs the content visibility and overall visual quality. Recent shadow removal approaches employ the mechanism of attention, due to its effectiveness, as a key component. However, they often suffer from two issues including large model size and high computational complexity for practical use. To address these shortcomings, this work devises a lightweight yet accurate shadow removal framework. First, we analyze the characteristics of the shadow removal task to seek the key information required for reconstructing shadow regions and designing a novel regional attention mechanism to effectively capture such information. Then, we customize a Regional Attention Shadow Removal Model (RASM, in short), which leverages non-shadow areas to assist in restoring shadow ones. Unlike existing attention-based models, our regional attention strategy allows each shadow region to interact more rationally with its surrounding non-shadow areas, for seeking the regional contextual correlation between shadow and non-shadow areas. Extensive experiments are conducted to demonstrate that our proposed method delivers superior performance over other state-of-the-art models in terms of accuracy and efficiency, making it appealing for practical applications.
@@ -22,7 +22,7 @@ sh setup.sh
 * SRD 
 
 ## Checkpoints
-[ISTD+](https://drive.google.com/file/d/12LlajwdxoRR0dLXAJmfgYZzkyo2wtyix/view?usp=drive_link) | [SRD](https://drive.google.com/file/d/1DLZRstZGzyryRvPFjCmIdAB_oo_tMzpP/view?usp=drive_link)
+[ISTD+](https://drive.google.com/file/d/12LlajwdxoRR0dLXAJmfgYZzkyo2wtyix/view?usp=sharing) | [SRD](https://drive.google.com/file/d/1DLZRstZGzyryRvPFjCmIdAB_oo_tMzpP/view?usp=sharing)
 
 
 ## Test
@@ -59,7 +59,7 @@ The results reported in the paper are calculated by the `matlab` script used in 
 
 
 #### Testing results
-The testing results on dataset ISTD+, SRD are: [results](https://drive.google.com/drive/folders/1BTk9FvuWyF7QUhto5MaejxgPrLmgDqGP?usp=drive_link)
+The testing results on dataset ISTD+, SRD are: [results](https://drive.google.com/drive/folders/1BTk9FvuWyF7QUhto5MaejxgPrLmgDqGP?usp=sharing)
 
 ## References
 Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/ShadowFormer/tree/main) and [Neighborhood-Attention-Transformer](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer). We would like to thank them.
