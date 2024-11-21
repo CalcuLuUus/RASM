@@ -42,8 +42,10 @@ You can check the output in `./results`.
 The results reported in the paper are calculated by the `matlab` script used in [previous method](https://github.com/zhuyr97/AAAI2022_Unfolding_Network_Shadow_Removal/tree/master/codes). Details refer to `evaluation/measure_shadow.m`.
 
 ## Results
+<!--
 #### Evaluation
 <p align=center><img width="80%" src="fig/table.png"/></p>
+-->
 
 
 #### Visual Results
