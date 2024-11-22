@@ -1,12 +1,14 @@
 # RASM (ACM MM'24)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/regional-attention-for-shadow-removal/shadow-removal-on-istd-1)](https://paperswithcode.com/sota/shadow-removal-on-istd-1?p=regional-attention-for-shadow-removal) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/regional-attention-for-shadow-removal/shadow-removal-on-srd)](https://paperswithcode.com/sota/shadow-removal-on-srd?p=regional-attention-for-shadow-removal) | [![arXiv](https://img.shields.io/badge/arXiv-2411.14201-b31b1b.svg)](https://arxiv.org/abs/2411.14201)
+
 This is the official implementation of the ACM MM 2024 paper Regional Attention For Shadow Removal.
 
-<!-- You can also view our paper via the [link](https://drive.google.com/file/d/1mc8lFa3lPIgvBLldF1fsnpUxTtkDZXH0/view?usp=sharing). -->
+You can also view our paper via the [link](https://arxiv.org/pdf/2411.14201v1).
 
 ## Introduction
 Shadow, as a natural consequence of light interacting with objects, plays a crucial role in shaping the aesthetics of an image, which however also impairs the content visibility and overall visual quality. Recent shadow removal approaches employ the mechanism of attention, due to its effectiveness, as a key component. However, they often suffer from two issues including large model size and high computational complexity for practical use. To address these shortcomings, this work devises a lightweight yet accurate shadow removal framework. First, we analyze the characteristics of the shadow removal task to seek the key information required for reconstructing shadow regions and designing a novel regional attention mechanism to effectively capture such information. Then, we customize a Regional Attention Shadow Removal Model (RASM, in short), which leverages non-shadow areas to assist in restoring shadow ones. Unlike existing attention-based models, our regional attention strategy allows each shadow region to interact more rationally with its surrounding non-shadow areas, for seeking the regional contextual correlation between shadow and non-shadow areas. Extensive experiments are conducted to demonstrate that our proposed method delivers superior performance over other state-of-the-art models in terms of accuracy and efficiency, making it appealing for practical applications.
 
-<!-- For more details, please refer to our [original paper](https://dl.acm.org/doi/10.1145/3664647.3681126) -->
+For more details, please refer to our [original paper](https://arxiv.org/pdf/2411.14201v1)
 
 <p align=center><img width="80%" src="fig/teaser.png"/></p>
 
