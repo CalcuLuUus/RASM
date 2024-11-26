@@ -11,3 +11,4 @@ linformer
 timm
 ptflops
 dataclasses
+scikit-learn
